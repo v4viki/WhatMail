@@ -1,0 +1,6 @@
+2025/10/02-14:43:03.792 65b0 Reusing MANIFEST D:\WhatMail\chrome_profile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/10/02-14:43:03.798 65b0 Recovering log #13
+2025/10/02-14:43:03.800 65b0 Reusing old log D:\WhatMail\chrome_profile\Default\Local Storage\leveldb/000013.log 
+2025/10/02-14:49:04.728 5a80 Level-0 table #17: started
+2025/10/02-14:49:04.738 5a80 Level-0 table #17: 16238 bytes OK
+2025/10/02-14:49:04.742 5a80 Delete type=0 #13

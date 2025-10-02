@@ -1,0 +1,14 @@
+[4564:4436:1002/145512.982:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:206] No machine level policy manager exists.
+[9072:28772:1002/145513.097:ERROR:gpu\ipc\service\gpu_channel_manager.cc:925] Failed to create GLES3 context, fallback to GLES2.
+[9072:28772:1002/145513.097:ERROR:gpu\ipc\service\gpu_channel_manager.cc:936] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
+[9072:28772:1002/145513.206:ERROR:gpu\ipc\service\gpu_channel_manager.cc:925] Failed to create GLES3 context, fallback to GLES2.
+[9072:28772:1002/145513.207:ERROR:gpu\ipc\service\gpu_channel_manager.cc:936] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
+[9072:28772:1002/145513.207:ERROR:gpu\ipc\service\gpu_channel_manager.cc:925] Failed to create GLES3 context, fallback to GLES2.
+[9072:28772:1002/145513.207:ERROR:gpu\ipc\service\gpu_channel_manager.cc:936] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
+[4564:4436:1002/145513.949:INFO:CONSOLE:115] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/Djg05-ZBDDm.js (115)
+[4564:7380:1002/145527.122:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[4564:4436:1002/145527.569:INFO:CONSOLE:115] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/Djg05-ZBDDm.js (115)
+[4564:7380:1002/145547.816:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[4564:7380:1002/145630.005:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[4564:7380:1002/145808.846:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[9072:11488:1002/145920.226:ERROR:ui\latency\latency_info.cc:112] CompositorFrameSinkSupport::MaybeSubmitCompositorFrame, LatencyInfo vector size 217 is too big.

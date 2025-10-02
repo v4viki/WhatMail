@@ -1,0 +1,934 @@
+2025-10-02 12:32:36,211 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 12:32:36,393 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 12:33:11,553 - whatmail_app - INFO - 🧪 Testing email connection...
+2025-10-02 12:33:11,555 - email_processor - INFO - Using default filters: ['urgent', 'important', 'otp', 'verification', 'job', 'offer', 'interview', 'selected', 'shortlisted', 'placement', 'internship']
+2025-10-02 12:33:11,556 - email_processor - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 12:33:11,559 - email_processor - INFO - 📧 Connecting to imap.gmail.com... (attempt 1)
+2025-10-02 12:33:14,498 - email_processor - INFO - ✅ Successfully connected to email server
+2025-10-02 12:33:15,487 - whatmail_app - INFO - ✅ Email connection test passed
+2025-10-02 12:33:15,487 - whatmail_app - INFO - 🧪 Testing WhatsApp connection...
+2025-10-02 12:33:15,489 - whatsapp_client - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 12:33:15,490 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 12:33:17,167 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 12:33:17,982 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 12:33:19,035 - WDM - INFO - There is no [win64] chromedriver "141.0.7390.54" for browser google-chrome "141.0.7390" in cache
+2025-10-02 12:33:19,036 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 12:33:21,545 - WDM - INFO - WebDriver version 141.0.7390.54 selected
+2025-10-02 12:33:21,556 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.54/win32/chromedriver-win32.zip
+2025-10-02 12:33:21,557 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.54/win32/chromedriver-win32.zip
+2025-10-02 12:33:22,633 - WDM - INFO - Driver downloading response is 200
+2025-10-02 12:33:24,643 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 12:33:26,113 - WDM - INFO - Driver has been saved in cache [C:\Users\v4vik\.wdm\drivers\chromedriver\win64\141.0.7390.54]
+2025-10-02 12:33:30,301 - whatsapp_client - INFO - ✅ Chrome driver initialized successfully
+2025-10-02 12:33:32,992 - whatsapp_client - INFO - 📱 Opened WhatsApp Web
+2025-10-02 12:33:42,090 - whatsapp_client - INFO - 📱 QR code detected - please scan to authenticate
+2025-10-02 12:33:53,414 - whatsapp_client - INFO - 📱 QR code detected - please scan to authenticate
+2025-10-02 12:34:15,963 - whatsapp_client - ERROR - ❌ WhatsApp session failed to start
+2025-10-02 12:34:15,964 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 12:34:18,413 - whatsapp_client - INFO - ✅ Chrome driver closed
+2025-10-02 12:34:18,414 - whatsapp_client - INFO - ✅ Session stopped
+2025-10-02 12:34:29,147 - whatmail_app - INFO - 🧪 Testing email connection...
+2025-10-02 12:34:29,150 - email_processor - INFO - Using default filters: ['urgent', 'important', 'otp', 'verification', 'job', 'offer', 'interview', 'selected', 'shortlisted', 'placement', 'internship']
+2025-10-02 12:34:29,151 - email_processor - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 12:34:29,153 - email_processor - INFO - 📧 Connecting to imap.gmail.com... (attempt 1)
+2025-10-02 12:34:32,594 - email_processor - INFO - ✅ Successfully connected to email server
+2025-10-02 12:34:33,618 - whatmail_app - INFO - ✅ Email connection test passed
+2025-10-02 12:34:33,619 - whatmail_app - INFO - 🧪 Testing WhatsApp connection...
+2025-10-02 12:34:33,620 - whatsapp_client - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 12:34:33,621 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 12:34:35,400 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 12:34:36,550 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 12:34:37,444 - WDM - INFO - Driver [C:\Users\v4vik\.wdm\drivers\chromedriver\win64\141.0.7390.54\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-02 12:34:39,370 - whatsapp_client - INFO - ✅ Chrome driver initialized successfully
+2025-10-02 12:34:40,722 - whatsapp_client - INFO - 📱 Opened WhatsApp Web
+2025-10-02 12:34:50,494 - whatsapp_client - INFO - ✅ WhatsApp Web loaded and authenticated
+2025-10-02 12:34:50,494 - whatsapp_client - INFO - ✅ WhatsApp session started successfully
+2025-10-02 12:34:50,495 - whatmail_app - INFO - ✅ WhatsApp connection test passed
+2025-10-02 12:34:50,495 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 12:34:52,807 - whatsapp_client - INFO - ✅ Chrome driver closed
+2025-10-02 12:34:52,808 - whatsapp_client - INFO - ✅ Session stopped
+2025-10-02 12:35:04,252 - whatmail_app - INFO - 🚀 Starting email monitoring...
+2025-10-02 12:35:04,253 - whatmail_app - INFO - ✅ Environment validation passed
+2025-10-02 12:35:04,254 - whatmail_app - INFO - 📱 Initializing WhatsApp client...
+2025-10-02 12:35:04,254 - whatmail_app - INFO - 📧 Initializing email processor...
+2025-10-02 12:35:04,255 - email_processor - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 12:35:04,256 - whatmail_app - INFO - ✅ Components initialized successfully
+2025-10-02 12:35:04,257 - whatmail_app - INFO - 📱 Starting WhatsApp Web session...
+2025-10-02 12:35:04,258 - whatsapp_client - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 12:35:04,259 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 12:35:05,944 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 12:35:06,852 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 12:35:07,826 - WDM - INFO - Driver [C:\Users\v4vik\.wdm\drivers\chromedriver\win64\141.0.7390.54\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-02 12:35:09,732 - whatsapp_client - INFO - ✅ Chrome driver initialized successfully
+2025-10-02 12:35:10,865 - whatsapp_client - INFO - 📱 Opened WhatsApp Web
+2025-10-02 12:35:10,884 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:11,418 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:13,726 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:14,384 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:14,905 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:15,461 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:16,591 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:18,038 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:18,039 - whatsapp_client - INFO - ✅ WhatsApp Web loaded and authenticated
+2025-10-02 12:35:18,039 - whatsapp_client - INFO - ✅ WhatsApp session started successfully
+2025-10-02 12:35:18,040 - whatmail_app - INFO - ✅ WhatsApp session started successfully
+2025-10-02 12:35:18,041 - whatmail_app - INFO - ✅ Email monitoring started successfully
+2025-10-02 12:35:22,073 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:22,073 - email_processor - INFO - 📧 Connecting to imap.gmail.com... (attempt 1)
+2025-10-02 12:35:24,456 - email_processor - INFO - ✅ Successfully connected to email server
+2025-10-02 12:35:24,457 - email_processor - INFO - 🔍 Searching for unread emails...
+2025-10-02 12:35:25,130 - email_processor - INFO - 📬 Found 10 unread emails to process
+2025-10-02 12:35:26,608 - email_processor - INFO - 📩 Processing: Fullstack Development & Data Science Placement Gua... from team@cuvette.tech
+2025-10-02 12:35:29,047 - whatsapp_client - INFO - 💬 Opening chat with +918989717870
+2025-10-02 12:35:29,111 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:34,240 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:35,645 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:39,187 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:42,821 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:48,030 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:49,631 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:35:50,978 - whatsapp_client - WARNING - ⚠️ Attempt 1 failed: Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=141.0.7390.54)
+Stacktrace:
+	GetHandleVerifier [0x0xf59d93+65891]
+	GetHandleVerifier [0x0xf59dd4+65956]
+	(No symbol) [0x0xd6dca8]
+	(No symbol) [0x0xdf28a2]
+	(No symbol) [0x0xdb2f1b]
+	(No symbol) [0x0xdb2555]
+	(No symbol) [0x0xddb27c]
+	(No symbol) [0x0xdadc44]
+	(No symbol) [0x0xddb434]
+	(No symbol) [0x0xdfcbe0]
+	(No symbol) [0x0xddb076]
+	(No symbol) [0x0xdac37a]
+	(No symbol) [0x0xdad224]
+	GetHandleVerifier [0x0x11c7e23+2613747]
+	GetHandleVerifier [0x0x11c2f5a+2593578]
+	GetHandleVerifier [0x0xf81ac4+229012]
+	GetHandleVerifier [0x0xf71e58+164392]
+	GetHandleVerifier [0x0xf7880d+191453]
+	GetHandleVerifier [0x0xf62148+99608]
+	GetHandleVerifier [0x0xf622e0+100016]
+	GetHandleVerifier [0x0xf4c4ca+10394]
+	BaseThreadInitThunk [0x0x75e15d49+25]
+	RtlInitializeExceptionChain [0x0x77e0d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e0d661+561]
+
+2025-10-02 12:35:56,712 - whatsapp_client - INFO - 💬 Opening chat with +918989717870
+2025-10-02 12:35:58,257 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:04,440 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:04,980 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:05,516 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:08,630 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:10,195 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:10,721 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:11,783 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:16,207 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:16,741 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:18,715 - whatsapp_client - WARNING - ⚠️ Attempt 2 failed: Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=141.0.7390.54)
+Stacktrace:
+	GetHandleVerifier [0x0xf59d93+65891]
+	GetHandleVerifier [0x0xf59dd4+65956]
+	(No symbol) [0x0xd6dca8]
+	(No symbol) [0x0xdf28a2]
+	(No symbol) [0x0xdb2f1b]
+	(No symbol) [0x0xdb2555]
+	(No symbol) [0x0xddb27c]
+	(No symbol) [0x0xdadc44]
+	(No symbol) [0x0xddb434]
+	(No symbol) [0x0xdfcbe0]
+	(No symbol) [0x0xddb076]
+	(No symbol) [0x0xdac37a]
+	(No symbol) [0x0xdad224]
+	GetHandleVerifier [0x0x11c7e23+2613747]
+	GetHandleVerifier [0x0x11c2f5a+2593578]
+	GetHandleVerifier [0x0xf81ac4+229012]
+	GetHandleVerifier [0x0xf71e58+164392]
+	GetHandleVerifier [0x0xf7880d+191453]
+	GetHandleVerifier [0x0xf62148+99608]
+	GetHandleVerifier [0x0xf622e0+100016]
+	GetHandleVerifier [0x0xf4c4ca+10394]
+	BaseThreadInitThunk [0x0x75e15d49+25]
+	RtlInitializeExceptionChain [0x0x77e0d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e0d661+561]
+
+2025-10-02 12:36:22,263 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 12:36:22,263 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 12:36:24,471 - whatsapp_client - INFO - 💬 Opening chat with +918989717870
+2025-10-02 12:36:27,330 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:32,268 - whatmail_app - WARNING - ⚠️ Monitoring thread did not stop gracefully
+2025-10-02 12:36:32,269 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 12:36:34,204 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:34,204 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:34,205 - whatsapp_client - WARNING - ⚠️ Attempt 3 failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-02 12:36:34,206 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/ef82342705b67c6c05e5c57d20c99dfa
+2025-10-02 12:36:34,207 - whatsapp_client - ERROR - ❌ Failed to send message after 3 attempts
+2025-10-02 12:36:38,276 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F20FE7790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ef82342705b67c6c05e5c57d20c99dfa
+2025-10-02 12:36:38,276 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:38,278 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F20FE79B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ef82342705b67c6c05e5c57d20c99dfa/screenshot
+2025-10-02 12:36:39,847 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 12:36:39,848 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 12:36:40,268 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F20FE7AC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ef82342705b67c6c05e5c57d20c99dfa/element
+2025-10-02 12:36:42,338 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F20FE7F00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ef82342705b67c6c05e5c57d20c99dfa/screenshot
+2025-10-02 12:36:42,339 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:42,341 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F20FE7CE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ef82342705b67c6c05e5c57d20c99dfa
+2025-10-02 12:36:44,308 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F251F0270>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ef82342705b67c6c05e5c57d20c99dfa/element
+2025-10-02 12:36:46,419 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F251F0490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ef82342705b67c6c05e5c57d20c99dfa/screenshot
+2025-10-02 12:36:46,420 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:46,421 - whatsapp_client - INFO - ✅ Chrome driver closed
+2025-10-02 12:36:46,421 - whatsapp_client - INFO - ✅ Session stopped
+2025-10-02 12:36:46,422 - email_processor - INFO - 🛑 Stopping email monitoring...
+2025-10-02 12:36:46,422 - whatmail_app - INFO - ✅ Resources cleaned up
+2025-10-02 12:36:46,423 - whatmail_app - INFO - ✅ Monitoring stopped successfully
+2025-10-02 12:36:48,363 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F251F08D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ef82342705b67c6c05e5c57d20c99dfa/element
+2025-10-02 12:36:49,850 - whatmail_app - WARNING - ⚠️ Monitoring thread did not stop gracefully
+2025-10-02 12:36:49,851 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 12:36:49,851 - whatsapp_client - INFO - ✅ Session stopped
+2025-10-02 12:36:49,852 - email_processor - INFO - 🛑 Stopping email monitoring...
+2025-10-02 12:36:49,853 - whatmail_app - INFO - ✅ Resources cleaned up
+2025-10-02 12:36:49,853 - whatmail_app - INFO - ✅ Monitoring stopped successfully
+2025-10-02 12:36:50,474 - whatsapp_client - WARNING - Failed to take screenshot: HTTPConnectionPool(host='localhost', port=58058): Max retries exceeded with url: /session/ef82342705b67c6c05e5c57d20c99dfa/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F251F0AF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-02 12:36:50,476 - email_processor - ERROR - ❌ Failed to send notification for: Fullstack Development & Data S...
+2025-10-02 12:36:50,477 - email_processor - INFO - ✅ Processed 0 emails
+2025-10-02 12:36:51,553 - email_processor - INFO - 📧 Email connection closed
+2025-10-02 12:36:51,553 - whatmail_app - INFO - 📊 Processed 0 emails in this cycle
+2025-10-02 12:36:51,554 - whatmail_app - INFO - 🛑 Monitoring worker stopped
+2025-10-02 12:36:52,439 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:36:55,175 - whatmail_app - INFO - 🚀 Starting email monitoring...
+2025-10-02 12:36:55,176 - whatmail_app - INFO - ✅ Environment validation passed
+2025-10-02 12:36:55,177 - whatmail_app - INFO - 📱 Initializing WhatsApp client...
+2025-10-02 12:36:55,178 - whatmail_app - INFO - 📧 Initializing email processor...
+2025-10-02 12:36:55,178 - email_processor - INFO - Using default filters: ['urgent', 'important', 'otp', 'verification', 'job', 'offer', 'interview', 'selected', 'shortlisted', 'placement', 'internship']
+2025-10-02 12:36:55,180 - email_processor - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 12:36:55,183 - whatmail_app - INFO - ✅ Components initialized successfully
+2025-10-02 12:36:55,184 - whatmail_app - INFO - 📱 Starting WhatsApp Web session...
+2025-10-02 12:36:55,185 - whatsapp_client - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 12:36:55,186 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 12:36:56,932 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 12:36:58,029 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 12:36:59,140 - WDM - INFO - Driver [C:\Users\v4vik\.wdm\drivers\chromedriver\win64\141.0.7390.54\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-02 12:37:01,029 - whatsapp_client - INFO - ✅ Chrome driver initialized successfully
+2025-10-02 12:37:04,235 - whatsapp_client - INFO - 📱 Opened WhatsApp Web
+2025-10-02 12:37:04,395 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:06,488 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:09,839 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:10,441 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:11,108 - whatsapp_client - INFO - ✅ WhatsApp Web loaded and authenticated
+2025-10-02 12:37:11,108 - whatsapp_client - INFO - ✅ WhatsApp session started successfully
+2025-10-02 12:37:11,109 - whatmail_app - INFO - ✅ WhatsApp session started successfully
+2025-10-02 12:37:11,111 - whatmail_app - INFO - ✅ Email monitoring started successfully
+2025-10-02 12:37:11,150 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:15,997 - email_processor - INFO - 📧 Connecting to imap.gmail.com... (attempt 1)
+2025-10-02 12:37:16,620 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:19,404 - email_processor - INFO - ✅ Successfully connected to email server
+2025-10-02 12:37:19,405 - email_processor - INFO - 🔍 Searching for unread emails...
+2025-10-02 12:37:20,327 - email_processor - INFO - 📬 Found 10 unread emails to process
+2025-10-02 12:37:21,299 - email_processor - INFO - 📩 Processing: New jobs in Remote, India. Apply Now.... from noreply@glassdoor.com
+2025-10-02 12:37:22,490 - whatsapp_client - INFO - 💬 Opening chat with +918989717870
+2025-10-02 12:37:22,671 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:27,625 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:28,539 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:31,335 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:32,380 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:32,927 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:34,043 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:36,635 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:37,169 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:39,263 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:37:44,247 - whatsapp_client - WARNING - ⚠️ Attempt 1 failed: Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=141.0.7390.54)
+Stacktrace:
+	GetHandleVerifier [0x0xf59d93+65891]
+	GetHandleVerifier [0x0xf59dd4+65956]
+	(No symbol) [0x0xd6dca8]
+	(No symbol) [0x0xdf28a2]
+	(No symbol) [0x0xdb2f1b]
+	(No symbol) [0x0xdb2555]
+	(No symbol) [0x0xddb27c]
+	(No symbol) [0x0xdadc44]
+	(No symbol) [0x0xddb434]
+	(No symbol) [0x0xdfcbe0]
+	(No symbol) [0x0xddb076]
+	(No symbol) [0x0xdac37a]
+	(No symbol) [0x0xdad224]
+	GetHandleVerifier [0x0x11c7e23+2613747]
+	GetHandleVerifier [0x0x11c2f5a+2593578]
+	GetHandleVerifier [0x0xf81ac4+229012]
+	GetHandleVerifier [0x0xf71e58+164392]
+	GetHandleVerifier [0x0xf7880d+191453]
+	GetHandleVerifier [0x0xf62148+99608]
+	GetHandleVerifier [0x0xf622e0+100016]
+	GetHandleVerifier [0x0xf4c4ca+10394]
+	BaseThreadInitThunk [0x0x75e15d49+25]
+	RtlInitializeExceptionChain [0x0x77e0d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e0d661+561]
+
+2025-10-02 12:37:50,600 - whatsapp_client - INFO - 💬 Opening chat with +918989717870
+2025-10-02 12:37:50,785 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:00,354 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:01,672 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:04,121 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:05,725 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:06,354 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:13,988 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:20,712 - whatsapp_client - WARNING - ⚠️ Attempt 2 failed: Message: stale element reference: stale element not found
+  (Session info: chrome=141.0.7390.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0xf59d93+65891]
+	GetHandleVerifier [0x0xf59dd4+65956]
+	(No symbol) [0x0xd6dca8]
+	(No symbol) [0x0xd7fcbb]
+	(No symbol) [0x0xd7ed90]
+	(No symbol) [0x0xd7513c]
+	(No symbol) [0x0xd73678]
+	(No symbol) [0x0xd76a54]
+	(No symbol) [0x0xd76ae8]
+	(No symbol) [0x0xdba52a]
+	(No symbol) [0x0xdae16a]
+	(No symbol) [0x0xddb27c]
+	(No symbol) [0x0xdadc44]
+	(No symbol) [0x0xddb434]
+	(No symbol) [0x0xdfcbe0]
+	(No symbol) [0x0xddb076]
+	(No symbol) [0x0xdac37a]
+	(No symbol) [0x0xdad224]
+	GetHandleVerifier [0x0x11c7e23+2613747]
+	GetHandleVerifier [0x0x11c2f5a+2593578]
+	GetHandleVerifier [0x0xf81ac4+229012]
+	GetHandleVerifier [0x0xf71e58+164392]
+	GetHandleVerifier [0x0xf7880d+191453]
+	GetHandleVerifier [0x0xf62148+99608]
+	GetHandleVerifier [0x0xf622e0+100016]
+	GetHandleVerifier [0x0xf4c4ca+10394]
+	BaseThreadInitThunk [0x0x75e15d49+25]
+	RtlInitializeExceptionChain [0x0x77e0d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e0d661+561]
+
+2025-10-02 12:38:20,746 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:27,178 - whatsapp_client - INFO - 💬 Opening chat with +918989717870
+2025-10-02 12:38:27,323 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:34,379 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:35,860 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:36,998 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:43,680 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:50,492 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:52,043 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:53,388 - whatsapp_client - WARNING - ⚠️ Attempt 3 failed: Message: unknown error: ChromeDriver only supports characters in the BMP
+  (Session info: chrome=141.0.7390.54)
+Stacktrace:
+	GetHandleVerifier [0x0xf59d93+65891]
+	GetHandleVerifier [0x0xf59dd4+65956]
+	(No symbol) [0x0xd6dca8]
+	(No symbol) [0x0xdf28a2]
+	(No symbol) [0x0xdb2f1b]
+	(No symbol) [0x0xdb2555]
+	(No symbol) [0x0xddb27c]
+	(No symbol) [0x0xdadc44]
+	(No symbol) [0x0xddb434]
+	(No symbol) [0x0xdfcbe0]
+	(No symbol) [0x0xddb076]
+	(No symbol) [0x0xdac37a]
+	(No symbol) [0x0xdad224]
+	GetHandleVerifier [0x0x11c7e23+2613747]
+	GetHandleVerifier [0x0x11c2f5a+2593578]
+	GetHandleVerifier [0x0xf81ac4+229012]
+	GetHandleVerifier [0x0xf71e58+164392]
+	GetHandleVerifier [0x0xf7880d+191453]
+	GetHandleVerifier [0x0xf62148+99608]
+	GetHandleVerifier [0x0xf622e0+100016]
+	GetHandleVerifier [0x0xf4c4ca+10394]
+	BaseThreadInitThunk [0x0x75e15d49+25]
+	RtlInitializeExceptionChain [0x0x77e0d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e0d661+561]
+
+2025-10-02 12:38:53,390 - whatsapp_client - ERROR - ❌ Failed to send message after 3 attempts
+2025-10-02 12:38:53,726 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:38:53,733 - email_processor - ERROR - ❌ Failed to send notification for: New jobs in Remote, India. App...
+2025-10-02 12:38:53,735 - email_processor - INFO - ✅ Processed 0 emails
+2025-10-02 12:38:54,607 - email_processor - INFO - 📧 Email connection closed
+2025-10-02 12:38:54,608 - whatmail_app - INFO - 📊 Processed 0 emails in this cycle
+2025-10-02 12:39:02,036 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 12:39:02,036 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 12:39:02,037 - whatmail_app - INFO - 🛑 Monitoring worker stopped
+2025-10-02 12:39:02,037 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 12:39:02,198 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 12:39:04,218 - whatsapp_client - INFO - ✅ Chrome driver closed
+2025-10-02 12:39:04,219 - whatsapp_client - INFO - ✅ Session stopped
+2025-10-02 12:39:04,219 - email_processor - INFO - 🛑 Stopping email monitoring...
+2025-10-02 12:39:04,220 - whatmail_app - INFO - ✅ Resources cleaned up
+2025-10-02 12:39:04,221 - whatmail_app - INFO - ✅ Monitoring stopped successfully
+2025-10-02 12:39:08,275 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F20FE79B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/592d2fac37b96321daf947c1c64097af/element
+2025-10-02 12:39:12,364 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F20FE7F00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/592d2fac37b96321daf947c1c64097af/element
+2025-10-02 12:39:16,467 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020F20FE7CE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/592d2fac37b96321daf947c1c64097af/element
+2025-10-02 13:21:27,777 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 13:21:27,956 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 13:21:34,908 - whatmail_app - INFO - 🚀 Starting email monitoring...
+2025-10-02 13:21:34,908 - whatmail_app - INFO - ✅ Environment validation passed
+2025-10-02 13:21:34,908 - whatmail_app - INFO - 📱 Initializing WhatsApp client...
+2025-10-02 13:21:34,909 - whatmail_app - INFO - 📧 Initializing email processor...
+2025-10-02 13:21:34,909 - email_processor - INFO - Using default filters: ['urgent', 'important', 'otp', 'job', 'offer', 'interview', 'verification']
+2025-10-02 13:21:34,909 - email_processor - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 13:21:34,910 - whatmail_app - INFO - ✅ Components initialized successfully
+2025-10-02 13:21:34,910 - whatmail_app - INFO - 📱 Starting WhatsApp Web session...
+2025-10-02 13:21:34,910 - whatsapp_client_unicode_fixed - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 13:21:34,911 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 13:21:36,292 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 13:21:36,901 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 13:21:37,534 - WDM - INFO - Driver [C:\Users\v4vik\.wdm\drivers\chromedriver\win64\141.0.7390.54\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-02 13:21:38,763 - whatsapp_client_unicode_fixed - INFO - ✅ Chrome driver initialized successfully
+2025-10-02 13:21:39,796 - whatsapp_client_unicode_fixed - INFO - 📱 Opened WhatsApp Web
+2025-10-02 13:21:39,828 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:21:40,378 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:21:42,105 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:21:42,640 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:21:44,190 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:21:45,568 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:21:46,513 - whatsapp_client_unicode_fixed - INFO - ✅ WhatsApp Web loaded and authenticated
+2025-10-02 13:21:46,513 - whatsapp_client_unicode_fixed - INFO - ✅ WhatsApp session started successfully
+2025-10-02 13:21:46,514 - whatmail_app - INFO - ✅ WhatsApp session started successfully
+2025-10-02 13:21:46,515 - whatmail_app - INFO - ✅ Email monitoring started successfully
+2025-10-02 13:21:46,660 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:21:49,121 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:21:49,637 - email_processor - INFO - 📧 Connecting to imap.gmail.com... (attempt 1)
+2025-10-02 13:21:49,654 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:21:52,589 - email_processor - INFO - ✅ Successfully connected to email server
+2025-10-02 13:21:52,591 - email_processor - INFO - 🔍 Searching for unread emails...
+2025-10-02 13:21:53,084 - email_processor - INFO - 📬 Processing 5 unread emails
+2025-10-02 13:21:54,123 - email_processor - INFO - 📩 Processing: Software Engineer - Intern at Windowmaker Software... from noreply@glassdoor.com
+2025-10-02 13:21:54,124 - email_processor - INFO - 📱 Sending WhatsApp notification...
+2025-10-02 13:21:54,125 - whatsapp_client_unicode_fixed - INFO - 📝 Message cleaned for Unicode compatibility
+2025-10-02 13:21:54,765 - whatsapp_client_unicode_fixed - INFO - 💬 Opening chat with +918989717870
+2025-10-02 13:21:54,828 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:22:00,214 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:22:15,213 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:22:39,960 - whatsapp_client_unicode_fixed - INFO - ✅ Message sent successfully to +918989717870
+2025-10-02 13:22:39,973 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:22:42,964 - email_processor - INFO - ✅ Sent notification: Software Engineer - Intern at ...
+2025-10-02 13:23:13,651 - email_processor - INFO - 📩 Processing: Full Stack Engineer at ALIQAN Services and 7 more ... from noreply@glassdoor.com
+2025-10-02 13:23:13,652 - email_processor - INFO - 📱 Sending WhatsApp notification...
+2025-10-02 13:23:13,653 - whatsapp_client_unicode_fixed - INFO - 📝 Message cleaned for Unicode compatibility
+2025-10-02 13:23:16,497 - whatsapp_client_unicode_fixed - INFO - 💬 Opening chat with +918989717870
+2025-10-02 13:23:16,613 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:23:23,449 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:23:25,059 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:23:25,824 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:24:00,325 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:24:01,075 - whatsapp_client_unicode_fixed - WARNING - ⚠️ Attempt 1 failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.54); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcb9d93+65891]
+	GetHandleVerifier [0x0xcb9dd4+65956]
+	(No symbol) [0x0xacdca8]
+	(No symbol) [0x0xabceb0]
+	(No symbol) [0x0xadb884]
+	(No symbol) [0x0xb41c25]
+	(No symbol) [0x0xb5c519]
+	(No symbol) [0x0xb3b076]
+	(No symbol) [0x0xb0c37a]
+	(No symbol) [0x0xb0d224]
+	GetHandleVerifier [0x0xf27e23+2613747]
+	GetHandleVerifier [0x0xf22f5a+2593578]
+	GetHandleVerifier [0x0xce1ac4+229012]
+	GetHandleVerifier [0x0xcd1e58+164392]
+	GetHandleVerifier [0x0xcd880d+191453]
+	GetHandleVerifier [0x0xcc2148+99608]
+	GetHandleVerifier [0x0xcc22e0+100016]
+	GetHandleVerifier [0x0xcac4ca+10394]
+	BaseThreadInitThunk [0x0x75e15d49+25]
+	RtlInitializeExceptionChain [0x0x77e0d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e0d661+561]
+
+2025-10-02 13:24:01,077 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:24:06,078 - whatsapp_client_unicode_fixed - WARNING - ⚠️ Attempt 2 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcb9d93+65891]
+	GetHandleVerifier [0x0xcb9dd4+65956]
+	(No symbol) [0x0xacdacb]
+	(No symbol) [0x0xb0b65b]
+	(No symbol) [0x0xb3b136]
+	(No symbol) [0x0xb36742]
+	(No symbol) [0x0xb35cb3]
+	(No symbol) [0x0xa9e72d]
+	(No symbol) [0x0xa9ecae]
+	(No symbol) [0x0xa9f14d]
+	GetHandleVerifier [0x0xf27e23+2613747]
+	GetHandleVerifier [0x0xf22f5a+2593578]
+	GetHandleVerifier [0x0xce1ac4+229012]
+	GetHandleVerifier [0x0xcd1e58+164392]
+	GetHandleVerifier [0x0xcd880d+191453]
+	(No symbol) [0x0xa9e3e3]
+	(No symbol) [0x0xa9db60]
+	GetHandleVerifier [0x0x107edef+4018623]
+	BaseThreadInitThunk [0x0x75e15d49+25]
+	RtlInitializeExceptionChain [0x0x77e0d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e0d661+561]
+
+2025-10-02 13:24:11,081 - whatsapp_client_unicode_fixed - WARNING - ⚠️ Attempt 3 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcb9d93+65891]
+	GetHandleVerifier [0x0xcb9dd4+65956]
+	(No symbol) [0x0xacdacb]
+	(No symbol) [0x0xb0b65b]
+	(No symbol) [0x0xb3b136]
+	(No symbol) [0x0xb36742]
+	(No symbol) [0x0xb35cb3]
+	(No symbol) [0x0xa9e72d]
+	(No symbol) [0x0xa9ecae]
+	(No symbol) [0x0xa9f14d]
+	GetHandleVerifier [0x0xf27e23+2613747]
+	GetHandleVerifier [0x0xf22f5a+2593578]
+	GetHandleVerifier [0x0xce1ac4+229012]
+	GetHandleVerifier [0x0xcd1e58+164392]
+	GetHandleVerifier [0x0xcd880d+191453]
+	(No symbol) [0x0xa9e3e3]
+	(No symbol) [0x0xa9db60]
+	GetHandleVerifier [0x0x107edef+4018623]
+	BaseThreadInitThunk [0x0x75e15d49+25]
+	RtlInitializeExceptionChain [0x0x77e0d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e0d661+561]
+
+2025-10-02 13:24:11,081 - whatsapp_client_unicode_fixed - ERROR - ❌ Failed to send message after 3 attempts
+2025-10-02 13:24:11,084 - whatsapp_client_unicode_fixed - WARNING - Failed to take screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcb9d93+65891]
+	GetHandleVerifier [0x0xcb9dd4+65956]
+	(No symbol) [0x0xacdacb]
+	(No symbol) [0x0xb0b65b]
+	(No symbol) [0x0xb3b136]
+	(No symbol) [0x0xb36742]
+	(No symbol) [0x0xb35cb3]
+	(No symbol) [0x0xa9e72d]
+	(No symbol) [0x0xa9ecae]
+	(No symbol) [0x0xa9f14d]
+	GetHandleVerifier [0x0xf27e23+2613747]
+	GetHandleVerifier [0x0xf22f5a+2593578]
+	GetHandleVerifier [0x0xce1ac4+229012]
+	GetHandleVerifier [0x0xcd1e58+164392]
+	GetHandleVerifier [0x0xcd880d+191453]
+	(No symbol) [0x0xa9e3e3]
+	(No symbol) [0x0xa9db60]
+	GetHandleVerifier [0x0x107edef+4018623]
+	BaseThreadInitThunk [0x0x75e15d49+25]
+	RtlInitializeExceptionChain [0x0x77e0d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e0d661+561]
+
+2025-10-02 13:24:11,085 - email_processor - ERROR - ❌ Failed to send notification for: Full Stack Engineer at ALIQAN ...
+2025-10-02 13:24:11,085 - email_processor - INFO - ✅ Processed 1 emails
+2025-10-02 13:24:32,422 - email_processor - WARNING - ⚠️ Error closing email connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-10-02 13:24:32,423 - whatmail_app - INFO - 📊 Processed 1 emails in this cycle
+2025-10-02 13:29:32,436 - whatmail_app - WARNING - ⚠️ WhatsApp session lost, attempting to reconnect...
+2025-10-02 13:29:32,437 - whatsapp_client_unicode_fixed - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 13:29:32,438 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 13:29:33,616 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 13:29:33,618 - whatsapp_client_unicode_fixed - ERROR - ❌ Failed to initialize driver: Could not reach host. Are you offline?
+2025-10-02 13:29:33,619 - whatmail_app - ERROR - ❌ Failed to reconnect WhatsApp, stopping monitoring
+2025-10-02 13:29:33,619 - whatmail_app - INFO - 🛑 Monitoring worker stopped
+2025-10-02 13:56:41,589 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 13:56:41,691 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 13:56:50,492 - whatmail_app - INFO - 🚀 Starting email monitoring...
+2025-10-02 13:56:50,493 - whatmail_app - INFO - ✅ Environment validation passed
+2025-10-02 13:56:50,493 - whatmail_app - INFO - 📱 Initializing WhatsApp client...
+2025-10-02 13:56:50,494 - whatmail_app - INFO - 📧 Initializing email processor...
+2025-10-02 13:56:50,494 - email_processor - INFO - Using default filters: ['urgent', 'important', 'otp', 'job', 'offer', 'interview', 'verification']
+2025-10-02 13:56:50,496 - email_processor - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 13:56:50,497 - whatmail_app - INFO - ✅ Components initialized successfully
+2025-10-02 13:56:50,497 - whatmail_app - INFO - 📱 Starting WhatsApp Web session...
+2025-10-02 13:56:50,498 - whatsapp_client_unicode_fixed - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 13:56:50,500 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 13:56:51,745 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 13:56:51,753 - whatsapp_client_unicode_fixed - ERROR - ❌ Failed to initialize driver: Could not reach host. Are you offline?
+2025-10-02 13:56:51,754 - whatmail_app - ERROR - ❌ Failed to start WhatsApp session
+2025-10-02 13:57:30,488 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 13:57:30,565 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 13:57:33,027 - whatmail_app - INFO - 🧪 Testing email connection...
+2025-10-02 13:57:33,028 - email_processor - INFO - Using default filters: ['urgent', 'important', 'otp', 'job', 'offer', 'interview', 'verification']
+2025-10-02 13:57:33,029 - email_processor - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 13:57:33,030 - email_processor - INFO - 📧 Connecting to imap.gmail.com... (attempt 1)
+2025-10-02 13:57:33,042 - email_processor - ERROR - ❌ Connection error: [Errno 11001] getaddrinfo failed
+2025-10-02 13:57:33,043 - email_processor - INFO - ⏳ Retrying in 1 seconds...
+2025-10-02 13:57:34,044 - email_processor - INFO - 📧 Connecting to imap.gmail.com... (attempt 2)
+2025-10-02 13:57:34,046 - email_processor - ERROR - ❌ Connection error: [Errno 11001] getaddrinfo failed
+2025-10-02 13:57:34,046 - email_processor - INFO - ⏳ Retrying in 2 seconds...
+2025-10-02 13:57:36,048 - email_processor - INFO - 📧 Connecting to imap.gmail.com... (attempt 3)
+2025-10-02 13:57:36,050 - email_processor - ERROR - ❌ Connection error: [Errno 11001] getaddrinfo failed
+2025-10-02 13:57:36,050 - whatmail_app - INFO - 🧪 Testing WhatsApp connection...
+2025-10-02 13:57:36,051 - whatsapp_client_unicode_fixed - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 13:57:36,051 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 13:57:37,455 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 13:57:37,459 - whatsapp_client_unicode_fixed - ERROR - ❌ Failed to initialize driver: Could not reach host. Are you offline?
+2025-10-02 13:57:37,459 - whatsapp_client_unicode_fixed - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 13:57:37,460 - whatsapp_client_unicode_fixed - INFO - ✅ Session stopped
+2025-10-02 13:57:58,844 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 13:57:58,924 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 13:58:38,124 - whatmail_app - INFO - 🚀 Starting email monitoring...
+2025-10-02 13:58:38,125 - whatmail_app - INFO - ✅ Environment validation passed
+2025-10-02 13:58:38,125 - whatmail_app - INFO - 📱 Initializing WhatsApp client...
+2025-10-02 13:58:38,125 - whatmail_app - INFO - 📧 Initializing email processor...
+2025-10-02 13:58:38,125 - email_processor - INFO - Using default filters: ['urgent', 'important', 'otp', 'job', 'offer', 'interview', 'verification']
+2025-10-02 13:58:38,126 - email_processor - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 13:58:38,127 - whatmail_app - INFO - ✅ Components initialized successfully
+2025-10-02 13:58:38,128 - whatmail_app - INFO - 📱 Starting WhatsApp Web session...
+2025-10-02 13:58:38,128 - whatsapp_client_unicode_fixed - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 13:58:38,131 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 13:58:39,521 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 13:58:40,241 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 13:58:40,922 - WDM - INFO - Driver [C:\Users\v4vik\.wdm\drivers\chromedriver\win64\141.0.7390.54\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-02 13:58:42,497 - whatsapp_client_unicode_fixed - INFO - ✅ Chrome driver initialized successfully
+2025-10-02 13:58:43,446 - whatsapp_client_unicode_fixed - INFO - 📱 Opened WhatsApp Web
+2025-10-02 13:58:45,775 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:58:48,860 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:58:49,567 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:58:50,092 - whatsapp_client_unicode_fixed - INFO - ✅ WhatsApp Web loaded and authenticated
+2025-10-02 13:58:50,092 - whatsapp_client_unicode_fixed - INFO - ✅ WhatsApp session started successfully
+2025-10-02 13:58:50,093 - whatmail_app - INFO - ✅ WhatsApp session started successfully
+2025-10-02 13:58:50,094 - whatmail_app - INFO - ✅ Email monitoring started successfully
+2025-10-02 13:58:53,243 - email_processor - INFO - 📧 Connecting to imap.gmail.com... (attempt 1)
+2025-10-02 13:58:56,312 - email_processor - INFO - ✅ Successfully connected to email server
+2025-10-02 13:58:56,312 - email_processor - INFO - 🔍 Searching for unread emails...
+2025-10-02 13:58:56,780 - email_processor - INFO - 📬 Processing 5 unread emails
+2025-10-02 13:58:57,428 - email_processor - INFO - 📩 Processing: Vikas, Highlight your Application... from alert@jobsalert.shine.com
+2025-10-02 13:58:57,429 - email_processor - INFO - 📱 Sending WhatsApp notification...
+2025-10-02 13:58:57,430 - whatsapp_client_unicode_fixed - INFO - 📝 Message cleaned for Unicode compatibility
+2025-10-02 13:58:58,957 - whatsapp_client_unicode_fixed - INFO - 💬 Opening chat with +918989717870
+2025-10-02 13:58:59,030 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:59:04,735 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:59:19,180 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:59:20,228 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:59:22,803 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:59:27,427 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:59:27,972 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 13:59:43,686 - whatsapp_client_unicode_fixed - INFO - ✅ Message sent successfully to +918989717870
+2025-10-02 13:59:46,691 - email_processor - INFO - ✅ Sent notification: Vikas, Highlight your Applicat...
+2025-10-02 14:00:17,584 - email_processor - INFO - 📩 Processing: Start with the most popular Adobe MAX session... from mail@mail.adobe.com
+2025-10-02 14:00:17,587 - email_processor - INFO - 📱 Sending WhatsApp notification...
+2025-10-02 14:00:17,587 - whatsapp_client_unicode_fixed - INFO - 📝 Message cleaned for Unicode compatibility
+2025-10-02 14:00:18,505 - whatsapp_client_unicode_fixed - INFO - 💬 Opening chat with +918989717870
+2025-10-02 14:00:27,209 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:00:28,315 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:00:29,043 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:00:38,069 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:00:38,618 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:28:53,653 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 14:28:53,812 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 14:29:00,379 - whatmail_app - INFO - 🚀 Starting email monitoring...
+2025-10-02 14:29:00,380 - whatmail_app - INFO - ✅ Environment validation passed
+2025-10-02 14:29:00,382 - whatmail_app - INFO - 📱 Initializing WhatsApp client...
+2025-10-02 14:29:00,384 - whatmail_app - INFO - 📧 Initializing email processor...
+2025-10-02 14:29:00,385 - email_processor - INFO - Using default filters: ['urgent', 'important', 'otp', 'job', 'offer', 'interview', 'verification']
+2025-10-02 14:29:00,388 - email_processor - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 14:29:00,389 - whatmail_app - INFO - ✅ Components initialized successfully
+2025-10-02 14:29:00,389 - whatmail_app - INFO - 📱 Starting WhatsApp Web session...
+2025-10-02 14:29:00,389 - whatsapp_client - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 14:29:00,390 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 14:29:01,739 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 14:29:02,505 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 14:29:03,220 - WDM - INFO - Driver [C:\Users\v4vik\.wdm\drivers\chromedriver\win64\141.0.7390.54\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-02 14:29:04,587 - whatsapp_client - INFO - ✅ Chrome driver initialized
+2025-10-02 14:29:06,091 - whatsapp_client - INFO - 📱 Opened WhatsApp Web
+2025-10-02 14:29:26,225 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:29:26,226 - whatsapp_client - INFO - ✅ WhatsApp Web loaded and authenticated
+2025-10-02 14:29:26,227 - whatmail_app - INFO - ✅ WhatsApp session started successfully
+2025-10-02 14:29:26,229 - whatmail_app - INFO - ✅ Email monitoring started successfully
+2025-10-02 14:29:46,298 - email_processor - INFO - 📧 Connecting to imap.gmail.com... (attempt 1)
+2025-10-02 14:29:46,312 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:29:48,388 - email_processor - INFO - ✅ Successfully connected to email server
+2025-10-02 14:29:48,390 - email_processor - INFO - 🔍 Searching for unread emails...
+2025-10-02 14:29:48,865 - email_processor - INFO - 📬 Processing 5 unread emails
+2025-10-02 14:29:49,503 - email_processor - INFO - 📩 Processing: Screener.in - Watchlist updates... from no-reply@screener.in
+2025-10-02 14:29:49,504 - email_processor - INFO - 📱 Sending WhatsApp notification...
+2025-10-02 14:29:49,505 - whatsapp_client - INFO - 💬 Sending to +918989717870: [Email Notification]
+From: no-reply@screener.in
+Su...
+2025-10-02 14:30:04,721 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:30:57,191 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:31:12,367 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:31:34,437 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:31:35,556 - whatsapp_client - INFO - ✅ Send button clicked
+2025-10-02 14:31:46,497 - whatsapp_client - INFO - ✅ Message sent successfully
+2025-10-02 14:31:46,499 - email_processor - INFO - ✅ Sent notification: Screener.in - Watchlist update...
+2025-10-02 14:31:46,509 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:32:17,610 - email_processor - INFO - 📩 Processing: Python Engineer at Kelp Infotech Private Limited a... from noreply@glassdoor.com
+2025-10-02 14:32:17,611 - email_processor - INFO - 📱 Sending WhatsApp notification...
+2025-10-02 14:32:17,612 - whatsapp_client - INFO - 💬 Sending to +918989717870: [IMPORTANT EMAIL]
+From: noreply@glassdoor.com
+Subj...
+2025-10-02 14:32:28,787 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:33:21,085 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:33:36,467 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:33:58,500 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:33:59,661 - whatsapp_client - INFO - ✅ Send button clicked
+2025-10-02 14:34:10,585 - whatsapp_client - INFO - ✅ Message sent successfully
+2025-10-02 14:34:10,588 - email_processor - INFO - ✅ Sent notification: Python Engineer at Kelp Infote...
+2025-10-02 14:34:10,600 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:34:41,326 - email_processor - INFO - 📩 Processing: React Developer at TECH NEXT and 5 more jobs in Re... from noreply@glassdoor.com
+2025-10-02 14:34:41,327 - email_processor - INFO - 📱 Sending WhatsApp notification...
+2025-10-02 14:34:41,328 - whatsapp_client - INFO - 💬 Sending to +918989717870: [IMPORTANT EMAIL]
+From: noreply@glassdoor.com
+Subj...
+2025-10-02 14:35:38,282 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:35:59,581 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:36:21,563 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:36:22,907 - whatsapp_client - INFO - ✅ Send button clicked
+2025-10-02 14:36:33,645 - whatsapp_client - INFO - ✅ Message sent successfully
+2025-10-02 14:36:33,647 - email_processor - INFO - ✅ Sent notification: React Developer at TECH NEXT a...
+2025-10-02 14:36:33,665 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:37:04,381 - email_processor - INFO - 📩 Processing: Senior Full Stack Developer- .Net at VEER educatio... from noreply@glassdoor.com
+2025-10-02 14:37:04,382 - email_processor - INFO - 📱 Sending WhatsApp notification...
+2025-10-02 14:37:04,383 - whatsapp_client - INFO - 💬 Sending to +918989717870: [IMPORTANT EMAIL]
+From: noreply@glassdoor.com
+Subj...
+2025-10-02 14:37:20,149 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 14:37:20,151 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 14:37:23,506 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:37:30,082 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 14:37:30,083 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 14:37:30,158 - whatmail_app - WARNING - ⚠️ Monitoring thread did not stop gracefully
+2025-10-02 14:37:30,161 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 14:37:40,093 - whatmail_app - WARNING - ⚠️ Monitoring thread did not stop gracefully
+2025-10-02 14:37:40,093 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 14:37:44,686 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:37:44,687 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:37:44,687 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:37:47,034 - whatmail_app - WARNING - ⚠️ Error during cleanup: 'EmailProcessor' object has no attribute 'stop_monitoring'
+2025-10-02 14:37:47,035 - whatmail_app - INFO - ✅ Monitoring stopped successfully
+2025-10-02 14:37:49,060 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015F7F1C29C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/69d0772da2aa31f77cad85b18f3f29f5/element
+2025-10-02 14:37:49,061 - whatmail_app - WARNING - ⚠️ Error during cleanup: 'EmailProcessor' object has no attribute 'stop_monitoring'
+2025-10-02 14:37:49,062 - whatmail_app - INFO - ✅ Monitoring stopped successfully
+2025-10-02 14:37:53,127 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015F7F1C2CF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/69d0772da2aa31f77cad85b18f3f29f5/element
+2025-10-02 14:37:57,188 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015F7F1C28B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/69d0772da2aa31f77cad85b18f3f29f5/element
+2025-10-02 14:38:01,255 - whatsapp_client - WARNING - ⚠️ Attempt 1 failed: 'NoneType' object has no attribute 'find_element'
+2025-10-02 14:38:04,257 - whatsapp_client - WARNING - ⚠️ Attempt 2 failed: 'NoneType' object has no attribute 'get'
+2025-10-02 14:38:07,260 - whatsapp_client - WARNING - ⚠️ Attempt 3 failed: 'NoneType' object has no attribute 'get'
+2025-10-02 14:38:07,262 - whatsapp_client - ERROR - ❌ Failed after 3 attempts
+2025-10-02 14:38:07,264 - email_processor - ERROR - ❌ Error processing email b'1939': 'NoneType' object has no attribute 'save_screenshot'
+2025-10-02 14:38:07,906 - email_processor - INFO - 📩 Processing: You’re registered for Hacktoberfest 2025... from info@hacktoberfest.com
+2025-10-02 14:38:07,908 - email_processor - INFO - 📱 Sending WhatsApp notification...
+2025-10-02 14:38:07,908 - whatsapp_client - ERROR - ❌ Session not active
+2025-10-02 14:38:07,910 - email_processor - ERROR - ❌ Failed to send notification for: You’re registered for Hacktobe...
+2025-10-02 14:38:07,912 - email_processor - INFO - ✅ Processed 3 emails
+2025-10-02 14:38:08,787 - email_processor - INFO - 📧 Email connection closed
+2025-10-02 14:38:08,788 - whatmail_app - INFO - 📊 Processed 3 emails in this cycle
+2025-10-02 14:38:08,789 - whatmail_app - INFO - 🛑 Monitoring worker stopped
+2025-10-02 14:39:34,638 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 14:39:34,711 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 14:39:41,459 - whatmail_app - INFO - 🚀 Starting email monitoring...
+2025-10-02 14:39:41,460 - whatmail_app - INFO - ✅ Environment validation passed
+2025-10-02 14:39:41,460 - whatmail_app - INFO - 📱 Initializing WhatsApp client...
+2025-10-02 14:39:41,460 - whatmail_app - INFO - 📧 Initializing email processor...
+2025-10-02 14:39:41,461 - email_processor - INFO - Using default filters: ['urgent', 'otp', 'job', 'offer', 'interview']
+2025-10-02 14:39:41,462 - email_processor - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 14:39:41,463 - email_processor - INFO - 🚀 Optimized Email Processor initialized
+2025-10-02 14:39:41,463 - whatmail_app - INFO - ✅ Components initialized successfully
+2025-10-02 14:39:41,464 - whatmail_app - INFO - 📱 Starting WhatsApp Web session...
+2025-10-02 14:39:41,464 - whatsapp_client - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 14:39:41,465 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 14:39:42,844 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 14:39:43,570 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 14:39:44,441 - WDM - INFO - Driver [C:\Users\v4vik\.wdm\drivers\chromedriver\win64\141.0.7390.54\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-02 14:39:45,691 - whatsapp_client - INFO - ✅ Chrome driver initialized
+2025-10-02 14:39:46,658 - whatsapp_client - INFO - 📱 Opened WhatsApp Web
+2025-10-02 14:40:06,822 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:40:06,822 - whatsapp_client - INFO - ✅ WhatsApp Web loaded and authenticated
+2025-10-02 14:40:06,822 - whatmail_app - INFO - ✅ WhatsApp session started successfully
+2025-10-02 14:40:06,825 - whatmail_app - INFO - ✅ Email monitoring started successfully
+2025-10-02 14:40:26,990 - email_processor - INFO - 📧 Connecting to email server...
+2025-10-02 14:40:27,001 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:40:28,890 - email_processor - INFO - ✅ Email connection established
+2025-10-02 14:40:28,891 - email_processor - INFO - 🔍 Searching for unread emails...
+2025-10-02 14:40:29,375 - email_processor - INFO - 📬 Processing 3 recent emails
+2025-10-02 14:40:30,194 - email_processor - INFO - 📩 Processing: Hacktoberfest sent you a badge... from noreply@holopin.io
+2025-10-02 14:40:30,196 - email_processor - INFO - 📱 Sending notification...
+2025-10-02 14:40:30,197 - whatsapp_client - INFO - 💬 Sending to +918989717870: [Email Notification]
+From: noreply@holopin.io
+Subj...
+2025-10-02 14:40:45,140 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:41:37,547 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:41:52,642 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:42:49,101 - whatsapp_client - WARNING - ⚠️ Attempt 1 failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-02 14:42:49,102 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:42:54,926 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 14:42:55,013 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 14:42:59,921 - whatmail_app - INFO - 🚀 Starting email monitoring...
+2025-10-02 14:42:59,922 - whatmail_app - INFO - ✅ Environment validation passed
+2025-10-02 14:42:59,923 - whatmail_app - INFO - 📱 Initializing WhatsApp client...
+2025-10-02 14:42:59,924 - whatmail_app - INFO - 📧 Initializing email processor...
+2025-10-02 14:42:59,926 - email_processor_optimized - INFO - Using default filters: ['urgent', 'otp', 'job', 'offer', 'interview']
+2025-10-02 14:42:59,927 - email_processor_optimized - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 14:42:59,929 - email_processor_optimized - INFO - 🚀 Optimized Email Processor initialized
+2025-10-02 14:42:59,929 - whatmail_app - INFO - ✅ Components initialized successfully
+2025-10-02 14:42:59,931 - whatmail_app - INFO - 📱 Starting WhatsApp Web session...
+2025-10-02 14:42:59,931 - whatsapp_client - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 14:42:59,932 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 14:43:01,319 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 14:43:02,208 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 14:43:02,938 - WDM - INFO - Driver [C:\Users\v4vik\.wdm\drivers\chromedriver\win64\141.0.7390.54\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-02 14:43:04,156 - whatsapp_client - INFO - ✅ Chrome driver initialized
+2025-10-02 14:43:04,962 - whatsapp_client - INFO - 📱 Opened WhatsApp Web
+2025-10-02 14:43:25,169 - whatsapp_client - INFO - ✅ WhatsApp Web loaded and authenticated
+2025-10-02 14:43:25,169 - whatmail_app - INFO - ✅ WhatsApp session started successfully
+2025-10-02 14:43:25,171 - whatmail_app - INFO - ✅ Email monitoring started successfully
+2025-10-02 14:43:45,364 - email_processor_optimized - INFO - 📧 Connecting to email server...
+2025-10-02 14:43:45,409 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:43:48,092 - email_processor_optimized - INFO - ✅ Email connection established
+2025-10-02 14:43:48,093 - email_processor_optimized - INFO - 🔍 Searching for unread emails...
+2025-10-02 14:43:48,733 - email_processor_optimized - INFO - 📬 Processing 3 recent emails
+2025-10-02 14:43:49,403 - email_processor_optimized - INFO - 📩 Processing: [GitHub] A third-party OAuth a... from noreply@github.com
+2025-10-02 14:43:49,403 - email_processor_optimized - INFO - 📱 Sending notification...
+2025-10-02 14:43:49,404 - whatsapp_client - INFO - 💬 Sending to +918989717870: [Email Notification]
+From: noreply@github.com
+Subj...
+2025-10-02 14:44:04,354 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:44:56,778 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:45:10,286 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:45:32,401 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:45:33,548 - whatsapp_client - INFO - ✅ Send button clicked
+2025-10-02 14:45:44,428 - whatsapp_client - INFO - ✅ Message sent successfully
+2025-10-02 14:45:44,431 - email_processor_optimized - INFO - ✅ Sent: [GitHub] A third-par...
+2025-10-02 14:45:44,457 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:45:55,113 - email_processor_optimized - INFO - 📩 Processing: Vikas,You're a top applicant f... from recruiters@jobs.shine.com
+2025-10-02 14:45:55,114 - email_processor_optimized - INFO - 🎯 Marked as important
+2025-10-02 14:45:55,115 - email_processor_optimized - INFO - 📱 Sending notification...
+2025-10-02 14:45:55,115 - whatsapp_client - INFO - 💬 Sending to +918989717870: [IMPORTANT EMAIL]
+From: recruiters@jobs.shine.com
+...
+2025-10-02 14:46:02,204 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:46:54,539 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:47:09,117 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:47:31,095 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:47:32,291 - whatsapp_client - INFO - ✅ Send button clicked
+2025-10-02 14:47:43,135 - whatsapp_client - INFO - ✅ Message sent successfully
+2025-10-02 14:47:43,136 - email_processor_optimized - INFO - ✅ Sent: Vikas,You're a top a...
+2025-10-02 14:47:43,150 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:47:54,081 - email_processor_optimized - INFO - 📩 Processing: Web Developer at Secure Steps ... from noreply@glassdoor.com
+2025-10-02 14:47:54,086 - email_processor_optimized - INFO - 🎯 Marked as important
+2025-10-02 14:47:54,087 - email_processor_optimized - INFO - 📱 Sending notification...
+2025-10-02 14:47:54,088 - whatsapp_client - INFO - 💬 Sending to +918989717870: [IMPORTANT EMAIL]
+From: noreply@glassdoor.com
+Subj...
+2025-10-02 14:48:02,090 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:48:54,513 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:49:11,697 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:50:53,899 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:50:55,098 - whatsapp_client - INFO - ✅ Send button clicked
+2025-10-02 14:51:05,974 - whatsapp_client - INFO - ✅ Message sent successfully
+2025-10-02 14:51:05,977 - email_processor_optimized - INFO - ✅ Sent: Web Developer at Sec...
+2025-10-02 14:51:05,988 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:51:15,978 - email_processor_optimized - INFO - ✅ Processed 3 emails quickly
+2025-10-02 14:51:15,979 - whatmail_app - INFO - 📊 Processed 3 emails in this cycle
+2025-10-02 14:52:27,998 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 14:52:27,999 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 14:52:27,999 - whatmail_app - INFO - 🛑 Monitoring worker stopped
+2025-10-02 14:52:28,001 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 14:52:29,534 - whatmail_app - INFO - ℹ️ Monitoring is not running
+2025-10-02 14:52:30,719 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:52:32,800 - email_processor_optimized - INFO - 🛑 Stopping optimized monitoring...
+2025-10-02 14:52:33,849 - whatmail_app - INFO - ✅ Resources cleaned up
+2025-10-02 14:52:33,851 - whatmail_app - INFO - ✅ Monitoring stopped successfully
+2025-10-02 14:55:04,397 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 14:55:04,490 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 14:55:09,388 - whatmail_app - INFO - 🚀 Starting email monitoring...
+2025-10-02 14:55:09,389 - whatmail_app - INFO - ✅ Environment validation passed
+2025-10-02 14:55:09,390 - whatmail_app - INFO - 📱 Initializing WhatsApp client...
+2025-10-02 14:55:09,390 - whatmail_app - INFO - 📧 Initializing email processor...
+2025-10-02 14:55:09,391 - email_processor_optimized - INFO - Using default filters: ['urgent', 'important', 'otp', 'job', 'offer', 'interview', 'verification']
+2025-10-02 14:55:09,392 - email_processor_optimized - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 14:55:09,394 - email_processor_optimized - INFO - ✅ Improved Email Processor initialized
+2025-10-02 14:55:09,394 - whatmail_app - INFO - ✅ Components initialized successfully
+2025-10-02 14:55:09,395 - whatmail_app - INFO - 📱 Starting WhatsApp Web session...
+2025-10-02 14:55:09,395 - whatsapp_client - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 14:55:09,397 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 14:55:10,675 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 14:55:11,547 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 14:55:12,212 - WDM - INFO - Driver [C:\Users\v4vik\.wdm\drivers\chromedriver\win64\141.0.7390.54\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-02 14:55:13,452 - whatsapp_client - INFO - ✅ Chrome driver initialized
+2025-10-02 14:55:14,397 - whatsapp_client - INFO - 📱 Opened WhatsApp Web
+2025-10-02 14:55:34,519 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:55:34,519 - whatsapp_client - INFO - ✅ WhatsApp Web loaded and authenticated
+2025-10-02 14:55:34,519 - whatmail_app - INFO - ✅ WhatsApp session started successfully
+2025-10-02 14:55:34,520 - whatmail_app - INFO - ✅ Email monitoring started successfully
+2025-10-02 14:55:54,612 - email_processor_optimized - INFO - 📧 Connecting to imap.gmail.com... (attempt 1)
+2025-10-02 14:55:54,639 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:55:57,448 - email_processor_optimized - INFO - ✅ Successfully connected to email server
+2025-10-02 14:55:57,449 - email_processor_optimized - INFO - 🔍 Searching for unread emails...
+2025-10-02 14:55:57,883 - email_processor_optimized - INFO - 📬 Processing 3 unread emails
+2025-10-02 14:55:58,661 - email_processor_optimized - INFO - 📩 Processing: Accenture and others are hiring in Navi Mumbai. Ap... from noreply@glassdoor.com
+2025-10-02 14:55:58,891 - email_processor_optimized - INFO - 🎯 Marked as important
+2025-10-02 14:55:58,892 - email_processor_optimized - INFO - 📱 Sending clean WhatsApp notification...
+2025-10-02 14:55:58,894 - whatsapp_client - INFO - 💬 Sending to +918989717870: [IMPORTANT EMAIL]
+From: noreply@glassdoor.com
+Subj...
+2025-10-02 14:56:13,819 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:57:06,219 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:57:21,145 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:57:43,100 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:57:44,436 - whatsapp_client - INFO - ✅ Send button clicked
+2025-10-02 14:57:55,128 - whatsapp_client - INFO - ✅ Message sent successfully
+2025-10-02 14:57:55,131 - email_processor_optimized - INFO - ✅ Sent clean notification: Accenture and others are hirin...
+2025-10-02 14:57:55,142 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:58:03,729 - email_processor_optimized - INFO - 📩 Processing: Junior Software Developer at 8848 Digital llp and ... from noreply@glassdoor.com
+2025-10-02 14:58:03,950 - email_processor_optimized - INFO - 🎯 Marked as important
+2025-10-02 14:58:03,950 - email_processor_optimized - INFO - 📱 Sending clean WhatsApp notification...
+2025-10-02 14:58:03,951 - whatsapp_client - INFO - 💬 Sending to +918989717870: [IMPORTANT EMAIL]
+From: noreply@glassdoor.com
+Subj...
+2025-10-02 14:58:13,342 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:59:05,834 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:59:20,381 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:59:42,444 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 14:59:43,903 - whatsapp_client - INFO - ✅ Send button clicked
+2025-10-02 14:59:54,519 - whatsapp_client - INFO - ✅ Message sent successfully
+2025-10-02 14:59:54,522 - email_processor_optimized - INFO - ✅ Sent clean notification: Junior Software Developer at 8...
+2025-10-02 14:59:54,538 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 15:00:03,173 - email_processor_optimized - INFO - 📩 Processing: Vikas,You're a top applicant for MIS Executive(com... from recruiters@jobs.shine.com
+2025-10-02 15:00:03,200 - email_processor_optimized - INFO - 🎯 Marked as important
+2025-10-02 15:00:03,201 - email_processor_optimized - INFO - 📱 Sending clean WhatsApp notification...
+2025-10-02 15:00:03,203 - whatsapp_client - INFO - 💬 Sending to +918989717870: [IMPORTANT EMAIL]
+From: recruiters@jobs.shine.com
+...
+2025-10-02 15:00:28,665 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 15:00:28,666 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 15:00:29,999 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 15:00:30,000 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 15:00:34,318 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 15:00:34,319 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 15:00:38,672 - whatmail_app - WARNING - ⚠️ Monitoring thread did not stop gracefully
+2025-10-02 15:00:38,672 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 15:00:40,006 - whatmail_app - WARNING - ⚠️ Monitoring thread did not stop gracefully
+2025-10-02 15:00:40,008 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 15:00:44,321 - whatmail_app - WARNING - ⚠️ Monitoring thread did not stop gracefully
+2025-10-02 15:00:44,322 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 15:00:57,328 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 15:00:57,343 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 15:00:57,344 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 15:00:57,375 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 15:00:57,787 - whatsapp_client - WARNING - ⚠️ Attempt 1 failed: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xcb9d93+65891]
+	GetHandleVerifier [0x0xcb9dd4+65956]
+	(No symbol) [0x0xacdacb]
+	(No symbol) [0x0xb0b65b]
+	(No symbol) [0x0xb3b136]
+	(No symbol) [0x0xb36742]
+	(No symbol) [0x0xb35cb3]
+	(No symbol) [0x0xa9e72d]
+	(No symbol) [0x0xa9ecae]
+	(No symbol) [0x0xa9f14d]
+	GetHandleVerifier [0x0xf27e23+2613747]
+	GetHandleVerifier [0x0xf22f5a+2593578]
+	GetHandleVerifier [0x0xce1ac4+229012]
+	GetHandleVerifier [0x0xcd1e58+164392]
+	GetHandleVerifier [0x0xcd880d+191453]
+	(No symbol) [0x0xa9e3e3]
+	(No symbol) [0x0xa9db60]
+	GetHandleVerifier [0x0x107edef+4018623]
+	BaseThreadInitThunk [0x0x75e15d49+25]
+	RtlInitializeExceptionChain [0x0x77e0d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e0d661+561]
+
+2025-10-02 15:00:59,857 - email_processor_optimized - INFO - 🛑 Stopping email monitoring...
+2025-10-02 15:00:59,858 - whatmail_app - INFO - ✅ Resources cleaned up
+2025-10-02 15:00:59,859 - whatmail_app - INFO - ✅ Monitoring stopped successfully
+2025-10-02 15:01:00,820 - whatsapp_client - WARNING - ⚠️ Attempt 2 failed: 'NoneType' object has no attribute 'get'
