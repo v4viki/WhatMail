@@ -3,6 +3,39 @@ cat > .gitignore << 'EOF'
 .env
 *.env
 !.env.example
+# Add these to .gitignore
+echo "
+# Personal Configuration
+.env
+*.env
+!.env.example
+
+# Runtime Files
+logs/
+chrome_profile/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# IDE Files
+.vscode/settings.json
+.idea/
+*.swp
+.DS_Store
+
+# Test Files (development)
+test_*.py
+debug_*.py
+script*.py
+*_optimized.py
+*_improved.py
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+" >> .gitignore
 
 # Python
 __pycache__/
