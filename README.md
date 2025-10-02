@@ -44,13 +44,11 @@ cp .env.example .env
 Edit .env with your Gmail and WhatsApp credentials
 python whatmail_gui.py
 
-text
-
 ---
 
 ## 🖼️ Demo Screenshots
 
-![WhatsApp Opening Screenshot](screenshots/Screenshot 2025-10-02 165403)  
+![WhatsApp Opening Screenshot] (screenshots/Screenshot 2025-10-02 165403.png)  
 *Screenshot showing WhatsApp notification received from WhatMail*
 
 ![WhatMail Monitoring GUI](screenshots/Screenshot-2025-10-02-160147.jpg)  
