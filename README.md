@@ -64,10 +64,13 @@ python whatmail_gui.py
 
 ## 📚 Documentation
 
-- [Project Documentation](documentation/Documentation.md)  
-- [Deployment Guide](docs/DEPLOYMENT.md)  
-- [Resume Summary](docs/WhatMail-Resume-Summary.md)  
-- [Technical Flashcards](docs/WhatMail-Technical-Flashcards.md)  
+- [Project Documentation](documentation/CONTRIBUTING.md)
+- [Deployment Guide](documentation/GitHub-Deployment-Guide.md)
+- [Bug Report](documentation/bug_report.md)
+- [Feature Request](documentation/feature_request.md)
+- [Questions](documentation/question.md)
+- [Requirements (Dev)](documentation/requirements-dev.txt)
+
 
 ---
 
