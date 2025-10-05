@@ -58,7 +58,7 @@ python whatmail_gui.py
 *Message is being typed on chatbox*
 
 ![Setup Screenshot](screenshots/Typing.png)  
-*Message is being typed on chatbox*
+*Message is being typed and sended on chatbox*
 
 ---
 
