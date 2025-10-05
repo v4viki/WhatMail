@@ -48,7 +48,7 @@ python whatmail_gui.py
 
 ## 🖼️ Demo Screenshots
 
-![WhatsApp Opening Screenshot] (screenshots/Screenshot 2025-10-02 165403.png)  
+![WhatsApp Opening Screenshot] (screenshots/Screenshot-2025-10-02-165139.png)  
 *Screenshot showing WhatsApp notification received from WhatMail*
 
 ![WhatMail Monitoring GUI](screenshots/Screenshot-2025-10-02-160147.jpg)  
