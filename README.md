@@ -64,7 +64,6 @@ python whatmail_gui.py
 
 ## 📚 Documentation
 
-- [Project Documentation](documentation/CONTRIBUTING.md)
 - [Deployment Guide](documentation/GitHub-Deployment-Guide.md)
 - [Bug Report](documentation/bug_report.md)
 - [Feature Request](documentation/feature_request.md)
@@ -76,7 +75,7 @@ python whatmail_gui.py
 
 ## 🤝 Contributing
 
-We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions! Please read [CONTRIBUTING.md](documentation/CONTRIBUTING.md) for guidelines.
 
 ---
 
