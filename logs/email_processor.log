@@ -932,3 +932,81 @@ Stacktrace:
 2025-10-02 15:00:59,858 - whatmail_app - INFO - ✅ Resources cleaned up
 2025-10-02 15:00:59,859 - whatmail_app - INFO - ✅ Monitoring stopped successfully
 2025-10-02 15:01:00,820 - whatsapp_client - WARNING - ⚠️ Attempt 2 failed: 'NoneType' object has no attribute 'get'
+2025-10-02 16:51:41,486 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 16:51:41,622 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 16:52:54,179 - whatmail_app - INFO - 🚀 Starting email monitoring...
+2025-10-02 16:52:54,180 - whatmail_app - INFO - ✅ Environment validation passed
+2025-10-02 16:52:54,181 - whatmail_app - INFO - 📱 Initializing WhatsApp client...
+2025-10-02 16:52:54,182 - whatmail_app - INFO - 📧 Initializing email processor...
+2025-10-02 16:52:54,183 - email_processor_optimized - INFO - Using default filters: ['urgent', 'important', 'otp', 'job', 'offer', 'interview', 'verification']
+2025-10-02 16:52:54,184 - email_processor_optimized - INFO - ✅ Email processor configured for: v4vikasahirwar@gmail.com
+2025-10-02 16:52:54,186 - email_processor_optimized - INFO - ✅ Improved Email Processor initialized
+2025-10-02 16:52:54,186 - whatmail_app - INFO - ✅ Components initialized successfully
+2025-10-02 16:52:54,187 - whatmail_app - INFO - 📱 Starting WhatsApp Web session...
+2025-10-02 16:52:54,188 - whatsapp_client - INFO - 🚀 Starting WhatsApp Web session...
+2025-10-02 16:52:54,189 - WDM - INFO - ====== WebDriver manager ======
+2025-10-02 16:52:55,830 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 16:52:57,943 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-02 16:53:00,107 - WDM - INFO - Driver [C:\Users\v4vik\.wdm\drivers\chromedriver\win64\141.0.7390.54\chromedriver-win32/chromedriver.exe] found in cache
+2025-10-02 16:53:01,417 - whatsapp_client - INFO - ✅ Chrome driver initialized
+2025-10-02 16:53:03,237 - whatsapp_client - INFO - 📱 Opened WhatsApp Web
+2025-10-02 16:53:23,381 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:53:23,381 - whatsapp_client - INFO - ✅ WhatsApp Web loaded and authenticated
+2025-10-02 16:53:23,382 - whatmail_app - INFO - ✅ WhatsApp session started successfully
+2025-10-02 16:53:23,384 - whatmail_app - INFO - ✅ Email monitoring started successfully
+2025-10-02 16:53:43,446 - email_processor_optimized - INFO - 📧 Connecting to imap.gmail.com... (attempt 1)
+2025-10-02 16:53:43,459 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:53:46,439 - email_processor_optimized - INFO - ✅ Successfully connected to email server
+2025-10-02 16:53:46,440 - email_processor_optimized - INFO - 🔍 Searching for unread emails...
+2025-10-02 16:53:46,885 - email_processor_optimized - INFO - 📬 Processing 3 unread emails
+2025-10-02 16:53:48,298 - email_processor_optimized - INFO - 📩 Processing: v4viki/WhatMail - 1 internal incident detected... from support@gitguardian.com
+2025-10-02 16:53:48,330 - email_processor_optimized - INFO - 📱 Sending clean WhatsApp notification...
+2025-10-02 16:53:48,330 - whatsapp_client - INFO - 💬 Sending to +918989717870: [Email Notification]
+From: support@gitguardian.com...
+2025-10-02 16:54:04,108 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:54:44,996 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:54:58,807 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:55:20,817 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:55:22,091 - whatsapp_client - INFO - ✅ Send button clicked
+2025-10-02 16:55:32,863 - whatsapp_client - INFO - ✅ Message sent successfully
+2025-10-02 16:55:32,865 - email_processor_optimized - INFO - ✅ Sent clean notification: v4viki/WhatMail - 1 internal i...
+2025-10-02 16:55:32,875 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:55:41,600 - email_processor_optimized - INFO - 📩 Processing: [v4viki/WhatMail] Possible valid secrets detected... from support@github.com
+2025-10-02 16:55:41,601 - email_processor_optimized - INFO - 📱 Sending clean WhatsApp notification...
+2025-10-02 16:55:41,602 - whatsapp_client - INFO - 💬 Sending to +918989717870: [Email Notification]
+From: support@github.com
+Subj...
+2025-10-02 16:56:37,058 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:56:59,213 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:57:29,524 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:57:39,626 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:58:09,864 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:58:24,923 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:58:48,581 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 16:58:48,581 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 16:58:56,857 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 16:58:56,859 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 16:58:58,587 - whatmail_app - WARNING - ⚠️ Monitoring thread did not stop gracefully
+2025-10-02 16:58:58,588 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 16:59:03,179 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:59:03,179 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:59:03,180 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/6ef002f041c8614669b211445626ed8c
+2025-10-02 16:59:03,181 - whatsapp_client - WARNING - ⚠️ Attempt 1 failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-02 16:59:07,239 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012358653F00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6ef002f041c8614669b211445626ed8c
+2025-10-02 16:59:10,219 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012358A6C270>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6ef002f041c8614669b211445626ed8c/url
+2025-10-02 16:59:11,309 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012358A6CAF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6ef002f041c8614669b211445626ed8c
+2025-10-02 16:59:12,143 - whatmail_app - INFO - 🛑 Stopping email monitoring...
+2025-10-02 16:59:12,144 - whatmail_app - INFO - ⏳ Waiting for monitoring thread to finish...
+2025-10-02 16:59:14,293 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012358A6CE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6ef002f041c8614669b211445626ed8c/url
+2025-10-02 16:59:15,400 - email_processor_optimized - INFO - 🛑 Stopping email monitoring...
+2025-10-02 16:59:15,401 - whatmail_app - INFO - ✅ Resources cleaned up
+2025-10-02 16:59:15,402 - whatmail_app - INFO - ✅ Monitoring stopped successfully
+2025-10-02 16:59:18,361 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-10-02 16:59:18,361 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012358A6D260>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6ef002f041c8614669b211445626ed8c/url
+2025-10-02 16:59:22,151 - whatmail_app - WARNING - ⚠️ Monitoring thread did not stop gracefully
+2025-10-02 16:59:22,152 - whatsapp_client - INFO - 🛑 Stopping WhatsApp session...
+2025-10-02 16:59:22,153 - email_processor_optimized - INFO - 🛑 Stopping email monitoring...
+2025-10-02 16:59:22,153 - whatmail_app - INFO - ✅ Resources cleaned up
+2025-10-02 16:59:22,154 - whatmail_app - INFO - ✅ Monitoring stopped successfully
+2025-10-02 17:14:30,493 - whatmail_app - INFO - 🚀 WhatMail Application initialized
+2025-10-02 17:14:30,599 - whatmail_app - INFO - 🚀 WhatMail Application initialized

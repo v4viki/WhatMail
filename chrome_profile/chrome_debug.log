@@ -1,14 +1,33 @@
-[4564:4436:1002/145512.982:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:206] No machine level policy manager exists.
-[9072:28772:1002/145513.097:ERROR:gpu\ipc\service\gpu_channel_manager.cc:925] Failed to create GLES3 context, fallback to GLES2.
-[9072:28772:1002/145513.097:ERROR:gpu\ipc\service\gpu_channel_manager.cc:936] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
-[9072:28772:1002/145513.206:ERROR:gpu\ipc\service\gpu_channel_manager.cc:925] Failed to create GLES3 context, fallback to GLES2.
-[9072:28772:1002/145513.207:ERROR:gpu\ipc\service\gpu_channel_manager.cc:936] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
-[9072:28772:1002/145513.207:ERROR:gpu\ipc\service\gpu_channel_manager.cc:925] Failed to create GLES3 context, fallback to GLES2.
-[9072:28772:1002/145513.207:ERROR:gpu\ipc\service\gpu_channel_manager.cc:936] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
-[4564:4436:1002/145513.949:INFO:CONSOLE:115] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/Djg05-ZBDDm.js (115)
-[4564:7380:1002/145527.122:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
-[4564:4436:1002/145527.569:INFO:CONSOLE:115] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/Djg05-ZBDDm.js (115)
-[4564:7380:1002/145547.816:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
-[4564:7380:1002/145630.005:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
-[4564:7380:1002/145808.846:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
-[9072:11488:1002/145920.226:ERROR:ui\latency\latency_info.cc:112] CompositorFrameSinkSupport::MaybeSubmitCompositorFrame, LatencyInfo vector size 217 is too big.
+[7052:20768:1002/165300.927:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:206] No machine level policy manager exists.
+[29656:22240:1002/165301.042:ERROR:gpu\ipc\service\gpu_channel_manager.cc:925] Failed to create GLES3 context, fallback to GLES2.
+[29656:22240:1002/165301.042:ERROR:gpu\ipc\service\gpu_channel_manager.cc:936] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
+[29656:22240:1002/165301.196:ERROR:gpu\ipc\service\gpu_channel_manager.cc:925] Failed to create GLES3 context, fallback to GLES2.
+[29656:22240:1002/165301.198:ERROR:gpu\ipc\service\gpu_channel_manager.cc:936] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
+[29656:22240:1002/165301.199:ERROR:gpu\ipc\service\gpu_channel_manager.cc:925] Failed to create GLES3 context, fallback to GLES2.
+[29656:22240:1002/165301.199:ERROR:gpu\ipc\service\gpu_channel_manager.cc:936] ContextResult::kFatalFailure: Failed to create shared context for virtualization.
+[22004:23188:1002/165301.801:WARNING:net\spdy\spdy_session.cc:3071] Received HEADERS for invalid stream 1
+[7052:20768:1002/165301.962:INFO:CONSOLE:115] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yh/r/Djg05-ZBDDm.js (115)
+[7052:20768:1002/165317.106:INFO:CONSOLE:77] "ErrorUtils caught an error:
+
+Converting to a string will drop content data. Hash="undefined" Translation="{user_name} added {names}" Content="{"key":null,"ref":null,"props":{"contact":{"id":"918770084583@c.us","type":"in","textStatusLastUpdateTime":-1,"syncToAddressbook":false},"showNotifyName":true,"elevatedPushNamesEnabled":true,"onClick":null}}" (type=object,Object)
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]", source: https://static.whatsapp.net/rsrc.php/v4/yS/r/CYtOg2rgJA7.js (77)
+[7052:26052:1002/165324.710:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[7052:20768:1002/165325.893:INFO:CONSOLE:115] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yd/r/ehF2hQWM0yM.js (115)
+[7052:26052:1002/165351.825:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[7052:20768:1002/165404.020:INFO:CONSOLE:77] "ErrorUtils caught an error:
+
+Converting to a string will drop content data. Hash="undefined" Translation="{user_name} added {names}" Content="{"key":null,"ref":null,"props":{"contact":{"id":"918770084583@c.us","type":"in","statusMute":false,"textStatusLastUpdateTime":-1,"syncToAddressbook":false},"showNotifyName":true,"elevatedPushNamesEnabled":true,"onClick":null}}" (type=object,Object)
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]", source: https://static.whatsapp.net/rsrc.php/v4/yS/r/CYtOg2rgJA7.js (77)
+[7052:26052:1002/165436.237:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[7052:26052:1002/165605.427:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[7052:20768:1002/165606.445:INFO:CONSOLE:77] "ErrorUtils caught an error:
+
+Converting to a string will drop content data. Hash="undefined" Translation="{user_name} added {names}" Content="{"key":null,"ref":null,"props":{"contact":{"id":"918770084583@c.us","type":"in","isBusiness":false,"isEnterprise":false,"isSmb":false,"statusMute":false,"textStatusLastUpdateTime":-1,"syncToAddressbook":false},"showNotifyName":true,"elevatedPushNames" (type=object,Object)
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]", source: https://static.whatsapp.net/rsrc.php/v4/yS/r/CYtOg2rgJA7.js (77)
+[29656:26288:1002/165804.466:ERROR:gpu\command_buffer\service\shared_image\shared_image_manager.cc:521] SharedImageManager::ProduceMemory: Trying to Produce a Memory representation from a non-existent mailbox.
+[29656:26288:1002/165804.466:ERROR:gpu\command_buffer\service\shared_image\shared_image_manager.cc:521] SharedImageManager::ProduceMemory: Trying to Produce a Memory representation from a non-existent mailbox.
+[29656:26288:1002/165824.855:ERROR:ui\latency\latency_info.cc:112] CompositorFrameSinkSupport::MaybeSubmitCompositorFrame, LatencyInfo vector size 871 is too big.
+[7052:26052:1002/165900.471:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
