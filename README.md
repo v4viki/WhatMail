@@ -64,7 +64,7 @@ python whatmail_gui.py
 
 ## 📚 Documentation
 
-- [Project Documentation](docs/WhatMail-Project-Documentation.md)  
+- [Project Documentation](documentation/Documentation.md)  
 - [Deployment Guide](docs/DEPLOYMENT.md)  
 - [Resume Summary](docs/WhatMail-Resume-Summary.md)  
 - [Technical Flashcards](docs/WhatMail-Technical-Flashcards.md)  
