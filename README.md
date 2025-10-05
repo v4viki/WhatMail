@@ -47,21 +47,20 @@ python whatmail_gui.py
 ---
 
 ## 🖼️ Demo Screenshots
-
-![WhatsApp Opening Screenshot] (screenshots/Screenshot-2025-10-02-165139.png)  
-*Screenshot showing WhatsApp notification received from WhatMail*
-
-![WhatMail Monitoring GUI](screenshots/Screenshot-2025-10-02-160147.jpg)  
+![WhatMail Monitoring GUI](screenshots/ProjectUI.png)  
 *Main GUI interface for WhatMail monitoring*
 
-![Filter Configuration](screenshots/Chatbox.png)  
-*Email filter keyword configuration screen*
+![Filter Configuration](screenshots/ProjectUI.png)  
+*Email configuration screen*
 
-![Additional Interface](screenshots/Screenshot-2025-10-02-140115.jpg)  
-*Additional interface screenshot*
+![Additional Interface](screenshots/StartCommand)  
+*Project start command*
 
-![Setup Screenshot](screenshots/Screenshot-2025-10-02-120934.jpg)  
-*Setup and initial application screen*
+![Whatsapp Loading Screenshot](screenshots/WhatsappL.png)  
+*Message is being typed on chatbox*
+
+![Setup Screenshot](screenshots/Typing.png)  
+*Message is being typed on chatbox*
 
 ---
 
