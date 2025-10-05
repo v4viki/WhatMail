@@ -47,14 +47,12 @@ python whatmail_gui.py
 ---
 
 ## 🖼️ Demo Screenshots
+
+![Additional Interface](screenshots/StartCommand.png)  
+*Project start command*
+
 ![WhatMail Monitoring GUI](screenshots/ProjectUI.png)  
 *Main GUI interface for WhatMail monitoring*
-
-![Filter Configuration](screenshots/ProjectUI.png)  
-*Email configuration screen*
-
-![Additional Interface](screenshots/StartCommand)  
-*Project start command*
 
 ![Whatsapp Loading Screenshot](screenshots/WhatsappL.png)  
 *Message is being typed on chatbox*
