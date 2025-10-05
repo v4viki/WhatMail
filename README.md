@@ -54,7 +54,7 @@ python whatmail_gui.py
 ![WhatMail Monitoring GUI](screenshots/Screenshot-2025-10-02-160147.jpg)  
 *Main GUI interface for WhatMail monitoring*
 
-![Filter Configuration](screenshots/Screenshot-2025-10-02-163458.jpg)  
+![Filter Configuration](screenshots/Chatbox.png)  
 *Email filter keyword configuration screen*
 
 ![Additional Interface](screenshots/Screenshot-2025-10-02-140115.jpg)  
